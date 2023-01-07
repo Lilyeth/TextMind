@@ -1,0 +1,14 @@
+Protocols = RED
+
+AI-COM = MAGENTA
+AI names = MAGENTA
+
+Non AI entity = PINK
+
+Connection Source = BLUE
+
+Alarms = Yellow (#b3b300)
+
+States = GREEN
+
+Response = Light Green #66ff33
