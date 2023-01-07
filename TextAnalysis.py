@@ -15,6 +15,13 @@ import webbrowser
 files = os.listdir(r"Data//")
 txt = {}
 
+pPath = 'Processed'
+
+pResult = os.path.exists(pPath)
+
+if not pResult:
+    os.makedirs(pPath)
+
 i = 1
 
 for file in files:
